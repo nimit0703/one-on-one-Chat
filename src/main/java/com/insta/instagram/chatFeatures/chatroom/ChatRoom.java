@@ -1,4 +1,4 @@
-package com.insta.instagram.chat.chatroom;
+package com.insta.instagram.chatFeatures.chatroom;
 
 import org.springframework.data.mongodb.core.mapping.Document;
 
@@ -20,5 +20,8 @@ public class ChatRoom {
     private String chatId;
     private String senderId;
     private String receipientId;
-    
+
+    public ChatRoom() {
+
+    }
 }

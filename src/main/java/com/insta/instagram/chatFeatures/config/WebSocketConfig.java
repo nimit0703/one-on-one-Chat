@@ -1,4 +1,4 @@
-package com.insta.instagram.chat.config;
+package com.insta.instagram.chatFeatures.config;
 
 import java.util.List;
 

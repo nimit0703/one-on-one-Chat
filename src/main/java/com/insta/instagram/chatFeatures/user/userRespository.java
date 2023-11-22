@@ -1,4 +1,4 @@
-package com.insta.instagram.chat.user;
+package com.insta.instagram.chatFeatures.user;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.insta.instagram.chat.chatroom;
+package com.insta.instagram.chatFeatures.chatroom;
 
 import java.util.Optional;
 
