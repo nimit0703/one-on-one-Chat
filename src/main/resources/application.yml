@@ -1,0 +1,12 @@
+spring:
+  data:
+    mongofb:
+      username: nimit
+      password: nimit
+      host: localhost
+      port: 27017
+      database: chat-app
+      authentication-database: admin
+
+server:
+  port: 8080

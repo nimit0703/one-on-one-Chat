@@ -1,0 +1,23 @@
+services:
+  mongodb:
+    image: mongo
+    container_name: mongo_db
+    ports:
+      - 27017:27017
+    volumes:
+      - mongo:/data
+    environment:
+      - MONGO_INITBB_ROOT_USERNAME=nimit
+      - MONGO_INITBB_ROOT_PASSWORD=nimit
+  mongo-express:
+    image: mongo-express
+    container_name: mono_express
+    restart: always
+    ports:
+    - 8081:8081
+    environment:
+    - ME_CONFIG_MONGODB_ADMINUSERNAME=nimit
+    - ME_CONFIG_MONGODB_PASSWORD=nimit
+    - ME_CONFIG_MONGODB_SERVER=mongodb
+volumes:
+  mongo: {}
